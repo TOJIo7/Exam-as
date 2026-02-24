@@ -12,7 +12,7 @@
     <nav class="flex text-[20px] gap-[30px] hidden lg:flex">
       <a class="block" href="../index.html">Home</a>
       <a class="block" href="./page1.html">Services</a>
-      <a class="block" href="./pa">Careers</a>
+      <a class="block" href="./page3.html">Careers</a>
     </nav>
     <button class="bg-[#0011ff] text-[20px] py-[10px] px-[30px] hidden lg:block rounded-2xl">Contact</button>
     <div class="icon  lg:hidden text-4xl">=</div>
@@ -22,8 +22,10 @@
       <div class="relative flex flex-col lg:flex-row items-center justify-between p-8 lg:p-14 gap-10">
         <div class="w-full lg:w-1/2">
           <h2 class="text-2xl lg:text-3xl font-semibold leading-snug mb-6">Build the Future with Us</h2>
-          <p class="text-gray-400 text-sm mb-[50px] max-w-[520px]">We’re a team of builders, thinkers, and explorers using AI, machine learning, and blockchain to solve meaningful problems.</p>
-          <button class="bg-[#0011ff] text-[20px] py-[10px] px-[30px] hidden lg:block rounded-2xl">Explore Open Positions</button>
+          <p class="text-gray-400 text-sm mb-[50px] max-w-[520px]">We’re a team of builders, thinkers, and explorers
+            using AI, machine learning, and blockchain to solve meaningful problems.</p>
+          <button class="bg-[#0011ff] text-[20px] py-[10px] px-[30px] hidden lg:block rounded-2xl">Explore Open
+            Positions</button>
         </div>
         <div class="w-full lg:w-1/2 flex justify-center lg:justify-end relative">
           <img src="../calogo1 2.png" alt="" class="max-w-[350px] w-full">
@@ -31,77 +33,183 @@
       </div>
     </div>
   </div>
-  
-  <!-- Обёртка -->
-<div class="w-full bg-black py-6 px-4">
-  
-  <!-- Контейнер -->
-  <div class="max-w-7xl mx-auto">
-    
-    <!-- Фильтр-бар -->
-    <div class="flex flex-col lg:flex-row lg:items-center gap-4">
-
-      <!-- Левые фильтры -->
-      <div class="flex flex-col sm:flex-row gap-4 flex-1">
-
-        <!-- Departments -->
-        <div class="flex items-center justify-between bg-zinc-900 text-white px-5 py-3 rounded-full min-w-[180px]">
-          <span class="text-sm">Departments</span>
-          
-          <!-- img стрелка вниз -->
-          <!-- <img src="" alt="arrow" class="w-4 h-4 ml-2"> -->
+  <div class="w-full bg-[#0f1115] py-6 px-4">
+    <div class="max-w-7xl mx-auto">
+      <div class="w-full  rounded-2xl p-4 flex flex-col lg:flex-row gap-4 lg:items-center">
+        <div class="w-full lg:w-auto min-w-[180px]">
+          <select class="w-full bg-[#1c2128] text-gray-300 text-sm rounded-full px-2 py-3 outline-none ">
+            <option>Departments</option>
+          </select>
         </div>
-
-        <!-- Experience -->
-        <div class="flex items-center justify-between bg-zinc-900 text-white px-5 py-3 rounded-full min-w-[160px]">
-          <span class="text-sm">Experience</span>
-          
-          <!-- img стрелка вниз -->
-          <!-- <img src="" alt="arrow" class="w-4 h-4 ml-2"> -->
+        <div class="w-full lg:w-auto min-w-[160px]">
+          <select class="w-full bg-[#1c2128] text-gray-300 text-sm rounded-full px-4 py-3 outline-none ">
+            <option>Experience</option>
+          </select>
         </div>
-
-        <!-- Job Type -->
-        <div class="flex items-center justify-between bg-zinc-900 text-white px-5 py-3 rounded-full min-w-[160px]">
-          <span class="text-sm">Job Type</span>
-          
-          <!-- img стрелка вниз -->
-          <!-- <img src="" alt="arrow" class="w-4 h-4 ml-2"> -->
+        <div class="w-full lg:w-auto min-w-[150px]">
+          <select class="w-full bg-[#1c2128] text-gray-300 text-sm rounded-full px-4 py-3 outline-none ">
+            <option>Job Type</option>
+          </select>
         </div>
-
-        <!-- Workplace Type -->
-        <div class="flex items-center justify-between bg-zinc-900 text-white px-5 py-3 rounded-full min-w-[180px]">
-          <span class="text-sm">Workplace Type</span>
-          
-          <!-- img стрелка вниз -->
-          <!-- <img src="" alt="arrow" class="w-4 h-4 ml-2"> -->
+        <div class="w-full lg:w-auto min-w-[170px]">
+          <select class="w-full bg-[#1c2128] text-gray-300 text-sm rounded-full px-4 py-3 outline-none ">
+            <option>Workplace Type</option>
+          </select>
         </div>
-
+        <div class="flex items-center bg-[#1c2128] rounded-full px-4 py-3 w-full lg:flex-1">
+          <input type="text" placeholder="Search by keywords..."
+            class="bg-transparent outline-none text-sm text-gray-300 placeholder-gray-500 w-full">
+          <button class="ml-3 bg-blue-600  rounded-full px-4 py-2 text-sm text-white">Search</button>
+        </div>
       </div>
-
-      <!-- Search -->
-      <div class="relative w-full lg:w-[300px]">
-        
-        <input 
-          type="text"
-          placeholder="Search by keywords..."
-          class="w-full bg-zinc-900 text-white placeholder-zinc-500 px-5 py-3 pr-12 rounded-full text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
-        />
-
-        <!-- кнопка поиска -->
-        <button class="absolute right-2 top-1/2 -translate-y-1/2 bg-blue-600 hover:bg-blue-700 p-2 rounded-full">
-          
-          <!-- img иконка поиска -->
-          <!-- <img src="" alt="search" class="w-4 h-4"> -->
-          
-        </button>
-
-      </div>
-
     </div>
-
   </div>
-
-</div>
+  <section class="w-full  py-16 px-4">
+    <div class="max-w-7xl mx-auto">
+      <h2 class="text-center text-white text-2xl font-semibold mb-12">Open Positions</h2>
+      <div class="flex flex-col lg:flex-row lg:flex-wrap gap-8">
+        <div class="flex flex-col justify-between bg-[#1A1A1A] rounded-2xl p-8 w-full lg:w-[calc(50%-16px)]">
+          <div>
+            <div class="flex items-center gap-4 mb-6">
+              <div class="w-12 h-12 rounded-lg bg-[#1A1A1A] flex items-center justify-center">
+                <div class="">
+                  <img class="w-full" src="../Icon Container.png" alt="">
+                </div>
+              </div>
+              <h3 class="text-white text-lg font-medium">
+                WEB DESIGNER
+              </h3>
+            </div>
+            <div class="flex flex-wrap gap-3 mb-4">
+              <span class="bg-[#1c2128] text-gray-300 text-xs px-4 py-2 rounded-full">
+                Salary • $45,000 - $60,000 per year
+              </span>
+            </div>
+            <div class="flex flex-wrap gap-3 mb-6">
+              <span class="bg-[#1c2128] text-gray-300 text-xs px-4 py-2 rounded-full">
+                Experience • 1+ year
+              </span>
+              <span class="bg-[#1c2128] text-gray-300 text-xs px-4 py-2 rounded-full">
+                Deadline • 30/09/2025
+              </span>
+            </div>
+            <h4 class="text-white text-sm font-semibold mb-3">
+              SKILLS
+            </h4>
+            <p class="text-gray-400 text-sm leading-relaxed">
+              Proficiency in Adobe Creative Suite (Photoshop, Illustrator, etc.),
+              strong understanding of UI/UX design principles, responsive design expertise.
+            </p>
+          </div>
+          <button class="mt-8 bg-blue-600 hover:bg-blue-700 transition text-white text-sm py-3 rounded-xl">
+            Apply Now
+          </button>
+        </div>
+        <div class="flex flex-col justify-between bg-[#1A1A1A] rounded-2xl p-8 w-full lg:w-[calc(50%-16px)]">
+          <div>
+            <div class="flex items-center gap-4 mb-6">
+              <div class="w-12 h-12 rounded-lg bg-[#1c2430] flex items-center justify-center">
+                <div>
+                  <img src="../Icon Container (1).png" alt="">
+                </div>
+              </div>
+              <h3 class="text-white text-lg font-medium">
+                MOBILE APP DEVELOPER
+              </h3>
+            </div>
+            <div class="flex flex-wrap gap-3 mb-4">
+              <span class="bg-[#1c2128] text-gray-300 text-xs px-4 py-2 rounded-full">
+                Salary • $55,000 - $75,000 per year
+              </span>
+            </div>
+            <div class="flex flex-wrap gap-3 mb-6">
+              <span class="bg-[#1c2128] text-gray-300 text-xs px-4 py-2 rounded-full">
+                Experience • 2+ years
+              </span>
+              <span class="bg-[#1c2128] text-gray-300 text-xs px-4 py-2 rounded-full">
+                Deadline • 15/10/2025
+              </span>
+            </div>
+            <h4 class="text-white text-sm font-semibold mb-3">
+              SKILLS
+            </h4>
+            <p class="text-gray-400 text-sm leading-relaxed">
+              Proficiency in iOS or Android development (Swift, Kotlin),
+              knowledge of mobile app design patterns, experience with testing and debugging.
+            </p>
+          </div>
+          <button class="mt-8 bg-blue-600 hover:bg-blue-700 transition text-white text-sm py-3 rounded-xl">
+            Apply Now
+          </button>
+        </div>
+        <div class="flex flex-col justify-between bg-[#1A1A1A] rounded-2xl p-8 w-full lg:w-[calc(50%-16px)]">
+          <div>
+            <div class="flex items-center gap-4 mb-6">
+              <div class="w-12 h-12 rounded-lg bg-[#1A1A1A] flex items-center justify-center">
+                <div>
+                  <img src="../Icon Container (2).png" alt="">
+                </div>
+              </div>
+              <h3 class="text-white text-lg font-medium"> DIGITAL MARKETING SPECIALIST</h3>
+            </div>
+            <div class="flex flex-wrap gap-3 mb-4">
+              <span class="bg-[#1c2128] text-gray-300 text-xs px-4 py-2 rounded-full"> Salary • $50,000 - $65,000 per
+                year </span>
+            </div>
+            <div class="flex flex-wrap gap-3 mb-6">
+              <span class="bg-[#1c2128] text-gray-300 text-xs px-4 py-2 rounded-full"> Experience • 3+ years </span>
+              <span class="bg-[#1c2128] text-gray-300 text-xs px-4 py-2 rounded-full"> Deadline • 20/11/2025 </span>
+            </div>
+            <h4 class="text-white text-sm font-semibold mb-3"> SKILLS</h4>
+            <p class="text-gray-400 text-sm leading-relaxed"> Proficiency in SEO, SEM, and social media
+              marketing,experience with analytics tools, content marketing expertise. </p>
+          </div>
+          <button class="mt-8 bg-blue-600 hover:bg-blue-700 transition text-white text-sm py-3 rounded-xl">Apply
+            Now</button>
+        </div>
+        <div class="flex flex-col justify-between bg-[#1A1A1A] rounded-2xl p-8 w-full lg:w-[calc(50%-16px)]">
+          <div>
+            <div class="flex items-center gap-4 mb-6">
+              <div class="w-12 h-12 rounded-lg bg-[#1A1A1A] flex items-center justify-center">
+                <div>
+                  <img src="../Icon Container (3).png" alt="">
+                </div>
+              </div>
+              <h3 class="text-white text-lg font-medium"> PROJECT MANAGER</h3>
+            </div>
+            <div class="flex flex-wrap gap-3 mb-4">
+              <span class="bg-[#1c2128] text-gray-300 text-xs px-4 py-2 rounded-full"> Salary • $60,000 - $80,000 per
+                year</span>
+            </div>
+            <div class="flex flex-wrap gap-3 mb-6">
+              <span class="bg-[#1c2128] text-gray-300 text-xs px-4 py-2 rounded-full"> Experience • 5+ years </span>
+              <span class="bg-[#1c2128] text-gray-300 text-xs px-4 py-2 rounded-full">Deadline • 05/12/2025</span>
+            </div>
+            <h4 class="text-white text-sm font-semibold mb-3"> SKILLS</h4>
+            <p class="text-gray-400 text-sm leading-relaxed">Strong organizational and communication skills,experience
+              in Agile methodologies, ability to manage project timelines.</p>
+          </div>
+          <button class="mt-8 bg-blue-600 hover:bg-blue-700 transition text-white text-sm py-3 rounded-xl"> Apply
+            Now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="relative w-full py-24 px-4 bg-black">
+    <div class="max-w-5xl mx-auto relative">
+      <div
+        class="relative rounded-[40px] overflow-hidden px-6 py-16 md:px-16 text-center bg-cover bg-center bg-no-repeat"
+        style="background-image: url('../fc9a47396a5036fc47f50e8b57d87e02b66e2885.png');">
+        <div class="absolute "></div>
+        <div class="relative z-10">
+          <h2 class="text-white text-2xl md:text-3xl font-semibold tracking-wide mb-6"> READY TO DISCUSS</h2>
+          <p class="text-gray-300 text-sm md:text-base mb-8">Your Product Needs With <span
+              class="text-blue-500 font-medium"> Catalyst Analytic</span>Experts?</p>
+          <button class="bg-blue-600 text-white text-sm md:text-base px-8 py-3 rounded-xl">Get In Touch</button>
+        </div>
+      </div>
+    </div>
+  </section>
   <footer class="bg-black text-white border-t border-white/10 px-4 py-10">
     <div class="max-w-[1200px] mx-auto flex flex-col gap-8">
       <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-8">
@@ -153,5 +261,4 @@
     </div>
   </footer>
 </body>
-
 </html>
